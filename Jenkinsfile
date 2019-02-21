@@ -14,7 +14,7 @@ pipeline {
         stage('State 3'){
             steps{
                 echo "Testing Stage 3"
-                cmd "C:\\ProgApps\\apache-maven-3.6.0\\bin\\mvn -X -Dmaven.test.failure.ignore clean package"
+                //cmd "C:\\ProgApps\\apache-maven-3.6.0\\bin\\mvn -X -Dmaven.test.failure.ignore clean package"  / Error Here
             }   
         }
     }
